@@ -45,5 +45,5 @@ modules:
       - type: git
         url: https://github.com/MrArnaudMichel/launcher_studio.git
         tag: v0.1.1
-        commit: 6360cc654af35162855f3a307c2a168c47562949
+        commit: 7ca7726e54a61731180b11b8934ec8af61f687e8
       - cargo-sources.json
