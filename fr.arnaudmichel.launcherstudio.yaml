@@ -37,7 +37,7 @@ modules:
       - install -D target/release/launcher_studio /app/bin/launcher_studio
       - install -D data/fr.arnaudmichel.launcherstudio.desktop /app/share/applications/fr.arnaudmichel.launcherstudio.desktop
       - install -D data/fr.arnaudmichel.launcherstudio.metainfo.xml /app/share/metainfo/fr.arnaudmichel.launcherstudio.metainfo.xml
-      - install -D "assets/icons/fr.arnaudmichel.launcherstudio.png" /app/share/icons/hicolor/512x512/apps/fr.arnaudmichel.launcherstudio.png
+      - install -D "assets/icons/fr.arnaudmichel.launcherstudio.svg" /app/share/icons/hicolor/scalable/apps/fr.arnaudmichel.launcherstudio.svg
       - install -D assets/icons/launcher-studio-weather-night-symbolic.svg /app/share/icons/hicolor/symbolic/apps/launcher-studio-weather-night-symbolic.svg
       - install -D assets/icons/launcher-studio-weather-sunny-symbolic.svg /app/share/icons/hicolor/symbolic/apps/launcher-studio-weather-sunny-symbolic.svg
 
