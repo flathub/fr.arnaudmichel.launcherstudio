@@ -17,6 +17,7 @@ finish-args:
   - --socket=wayland
   - --device=dri
   - --filesystem=xdg-data/applications:create
+  - --filesystem=host-os:ro
   - --filesystem=/var/lib/flatpak/exports/share/applications:ro
   - --filesystem=xdg-data/flatpak/exports/share/applications:ro
   - --filesystem=home:ro
@@ -27,7 +28,7 @@ modules:
     build-commands:
       - |
         mkdir -p .cargo
-        cat >> .cargo/config <<EOF
+        cat >> .cargo/config.toml <<EOF
         [source.crates-io]
         replace-with = "vendored-sources"
 
@@ -45,6 +46,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/MrArnaudMichel/launcher_studio.git
-        tag: v0.1.4
-        commit: cf5c14426ee770d7bed896f3cc51def44a1a05c3
+        tag: v0.1.5
+        commit: 55a69f310b71563b5b043957b4609ba355523edb
       - cargo-sources.json
